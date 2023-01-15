@@ -1,0 +1,268 @@
+/* let's start coding in css */
+/* in top place */
+/* banner repair */
+
+/* work sans font link  */
+/* universal sign  */
+* {
+  margin: 0;
+}
+* {
+  font-family: "Work Sans";
+}
+
+/* header and nav  */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+
+  height: 1322px;
+  margin-top: 16px;
+}
+
+.nav-title {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 228px;
+  margin-top: 34px;
+}
+nav ul {
+  display: flex;
+  margin-right: 240px;
+  margin-top: 63px;
+}
+nav li {
+  list-style: none;
+  padding-right: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+/* section banner details are here  */
+
+.sec-1 {
+  display: block;
+  margin: 102px 0 147px 11px;
+  text-align: center;
+}
+
+.section--title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+
+.section-para {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* image banner */
+
+.section-image {
+  border-radius: 8px;
+  margin: -91px 0px 61px 240px;
+}
+.img-banner {
+  width: 1440px;
+  height: 700px;
+}
+
+/* second part of website styles */
+
+.image {
+  width: 342px;
+  height: 342px;
+}
+.btn {
+  color: #fff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border-style: none;
+  width: 180px;
+  height: 64px;
+  margin-left: 0px;
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.content {
+  margin: 271px 0 0 0;
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+  row-gap: 73px;
+}
+.content {
+  margin-left: 73px;
+}
+.p-content {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.QL {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+}
+.OO {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+.F {
+  color: #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+}
+.second-image {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-top: 69px;
+}
+.features {
+  margin: 130px 0 130px 240px;
+  display: flex;
+  column-gap: 146px;
+  font-family: "Work Sans";
+}
+
+.feat-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  font-family: "Work Sans";
+}
+.feat-h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+  font-family: "Work Sans";
+}
+.feat-h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.feat-content {
+  padding: 30px 42px 30px 30px;
+}
+.feat-title {
+  padding: 30px 42px 30px 30px;
+}
+.feat-title1 {
+  display: flex;
+  align-items: center;
+}
+.vl {
+  border-left: 7px solid #ff900e;
+  height: 96px;
+}
+.feat-h1 {
+  padding: 30px 42px 30px 30px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  font-family: "Work Sans";
+}
+/* .hr {
+  color: #ff900e;
+  background: #ff900e;
+} */
+.btn-feat {
+  color: #fff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border-style: none;
+  width: 180px;
+  height: 64px;
+  margin-left: 0px;
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.facts {
+  display: flex;
+  flex-direction: column;
+  margin: 130px 0 130px 240px;
+}
+.fact-h1 {
+  padding: 30px 42px 30px 3px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 146px 344px 240px 326px;
+}
+.icon {
+  text-align: center;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  height: 226px;
+  width: 223px;
+}
+.icon-1 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+.icon-2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+}
+.mar {
+  margin-top: 35px;
+}
+.sponse-h1 {
+  padding: 30px 42px 30px 3px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.sponse-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  font-family: "Work Sans";
+}
+.sponse {
+  display: flex;
+  flex-direction: column;
+  margin: 130px 0 130px 58px;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 115px 164px 85px 164px;
+}
+.copyright-p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #424242;
+  font-family: "Work Sans";
+}
