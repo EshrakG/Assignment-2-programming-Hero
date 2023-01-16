@@ -190,12 +190,20 @@ nav {
   background-color: #ff900e;
   border-radius: 8px;
   border-style: none;
-  width: 180px;
-  height: 64px;
-  margin-left: 0px;
-  margin-top: 32px;
-  font-size: 20px;
+  width: 318px;
+  height: 187px;
+  margin-left: -62px;
   font-weight: 600;
+  position: relative;
+  top: -111px;
+  text-align: center;
+}
+
+.ex {
+  font-size: 30px;
+}
+.year {
+  font-size: 60px;
 }
 .facts {
   display: flex;
@@ -265,4 +273,45 @@ nav {
   line-height: 26px;
   color: #424242;
   font-family: "Work Sans";
+}
+.hidee {
+  display: none;
+}
+/* Meadia Queray */
+@media only screen and (max-width: 688px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    margin: 112px 0 141px 21px;
+  }
+  .btn-feat {
+    margin: 0 0 20px 272px;
+  }
+  .div-feat-pic {
+    width: 200px;
+  }
+  .section--main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 24px 77px;
+  }
+  .section-image {
+    margin: -45px 0px 98px -16px;
+  }
+  .img-banner {
+    width: 635px;
+    height: 450px;
+    margin-right: 0px;
+  }
+  .features {
+    margin-top: -56px;
+  }
+  .vl {
+    height: 206px;
+  }
+  .arch {
+    width: 567px;
+    height: 815px;
+    margin-left: 50px;
+  }
 }
